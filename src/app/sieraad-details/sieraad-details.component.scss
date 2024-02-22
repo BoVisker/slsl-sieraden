@@ -1,0 +1,25 @@
+body {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    flex-direction: row;
+    margin-left: 100px;
+
+    img {
+        grid-column-start: 1;
+
+        transition: 1s;
+        width: 200%;
+        border-radius: 50px;
+
+        &:hover {
+            border-radius: 150px;
+        }
+    } 
+
+    .text {
+        grid-column-start: 5;
+        margin-top: 120px;
+    }
+
+}

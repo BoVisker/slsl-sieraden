@@ -1,0 +1,36 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    text-align: center;
+
+    div {
+        cursor: pointer;
+        margin: 10px;
+        &:hover {
+            border-radius: 200px;
+
+            img {
+                border-radius: 150px;
+            }
+        }
+
+        p {
+            text-align: start;
+            margin: 5px;
+            margin-left: 25px;
+        }
+
+        img {
+            transition: 1s;
+            width: 90%;
+            border-radius: 50px;
+            
+        } 
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+}

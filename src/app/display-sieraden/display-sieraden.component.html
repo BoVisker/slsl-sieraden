@@ -1,0 +1,14 @@
+<body>
+    <a 
+        [title]="item.name + ' details'"
+        [routerLink]="['/products', item.id]"
+        href="" *ngFor="let item of sieraad">
+        <div class="test">
+            <img src={{item.imgURL}} alt="">
+            <div class="text">
+                <p>{{item.name}}</p>
+                <p>Є {{item.price}} </p>
+            </div>
+        </div>
+    </a>
+</body>
