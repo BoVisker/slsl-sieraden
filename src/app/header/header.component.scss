@@ -1,13 +1,64 @@
+$background: #EECBD1;
+$roze_sterk: #dd7a8a;
+$roze_zwak: #E69DAE;
+$groen_roze: #E6D7CF;
+
 :host {
   height: 200px;
+  margin: 0;
+
+}
+
+.bericht {
+  background-color: $roze_sterk;
+  text-align: center;
+
+  h3 {
+    margin: 0;
+  }
 }
 
 .content{
+  background-color: $roze_zwak;
   display:grid;
   flex-direction: row;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(11, 1fr);
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  .home {
+    grid-column-start: 2;
+  }
+
+  .titel {
+    grid-column-start: 6;
+    cursor: pointer;
+  }
+
+  .hoe {
+    grid-column-start: 9;
+    
+  }
+
+  .over {
+    grid-column-start: 10;
+  }
+
+  
+  .mand .mand-img {
+    width:35px;
+    grid-column-start: 11;
+
+  }
+  
 }
 
-.mand .mand-img {
-  width:80px;
-}
+

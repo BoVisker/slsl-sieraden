@@ -1,3 +1,8 @@
+$background: #EECBD1;
+$roze_sterk: #dd7a8a;
+$roze_zwak: #E69DAE;
+$groen_roze: #E6D7CF;
+
 body {
     margin: 50px;
     display: grid;
@@ -16,6 +21,12 @@ body {
             border-radius: 150px;
         }
     } 
+
+    a {
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
 
     .text {
         grid-column-start: 5;

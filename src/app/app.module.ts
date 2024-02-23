@@ -8,6 +8,8 @@ import { FooterComponent } from './footer/footer.component';
 import { DisplaySieradenComponent } from './display-sieraden/display-sieraden.component';
 import { SieraadDetailsComponent } from './sieraad-details/sieraad-details.component';
 import { AppRoutingModule } from './app-routing.module';
+import { OveronsComponent } from './overons/overons.component';
+import { HoebestelikComponent } from './hoebestelik/hoebestelik.component';
 
 @NgModule({
   declarations: [
@@ -16,13 +18,11 @@ import { AppRoutingModule } from './app-routing.module';
     FooterComponent,
     DisplaySieradenComponent,
     SieraadDetailsComponent,
+    OveronsComponent,
+    HoebestelikComponent,
   ],
   imports: [
     BrowserModule,
-    // RouterModule.forRoot([
-      // { path: '', component: DisplaySieradenComponent },
-      // { path: 'products/:productId', component: SieraadDetailsComponent },
-    // ]),
     AppRoutingModule
   ],
   providers: [],
