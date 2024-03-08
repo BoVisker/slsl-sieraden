@@ -1,7 +1,7 @@
 export interface Sieraad {
     id: number;
     name: string;
-    price: number;
+    price: string;
     imgURL: string;
     beschrijving: string;
 }
