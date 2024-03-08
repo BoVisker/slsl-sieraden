@@ -22,7 +22,7 @@ $groen_roze: #E6D7CF;
   background-color: $roze_zwak;
   display:grid;
   flex-direction: row;
-  grid-template-columns: repeat(11, 1fr);
+  grid-template-columns: repeat(11, 0.5fr);
   align-items: center;
 
   a {
@@ -40,6 +40,7 @@ $groen_roze: #E6D7CF;
 
   .titel {
     grid-column-start: 6;
+    grid-column-end: 8;
     cursor: pointer;
   }
 
