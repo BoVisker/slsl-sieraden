@@ -34,7 +34,6 @@ $groen_roze: #E6D7CF;
     border-right: 2px dashed black;
     height: 100px;
     width: 50%;
-
   }
 
   .r {
@@ -42,5 +41,9 @@ $groen_roze: #E6D7CF;
     height: 100px;
     width: 50%;
 
+  }
+
+  .retourmail {
+    list-style-type:  circle !important;
   }
 }

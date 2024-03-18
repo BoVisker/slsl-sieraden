@@ -3,13 +3,15 @@
         <ul>
             <h4 class="text">Veel gestelde vragen:</h4>
             <a [routerLink]="['/hoebestelik']"><li class="vraag">Hoe bestel ik een product?</li></a>
-            <a [routerLink]="['/hoeretour']"><li class="vraag">Hoe stuur ik een product retour?</li></a>
+            <a [routerLink]="['/hoeretour']"><li class="vraag">Stuur retour via deze e-mail:</li></a>
+            <ul>
+                <a href=""><li class="retourmail mail" href="mailto:info@slsl-sieraden.nl">{{email}}</li></a>
+            </ul>
         </ul>
     </ul>
 </div>
 <div class="r">
     <ul>
-        <a [routerLink]="['/retour']"><h4 class="text">retour</h4></a>
         <h4 class="text">contact:</h4>
         <a href=""><li class="mail" href="mailto:info@slsl-sieraden.nl">{{email}}</li></a>
     </ul>

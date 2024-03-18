@@ -57,7 +57,8 @@ $groen_roze: #E6D7CF;
   .mand .mand-img {
     width:35px;
     grid-column-start: 11;
-
+    cursor: not-allowed;
+    opacity: 0.5;
   }
   
 }
