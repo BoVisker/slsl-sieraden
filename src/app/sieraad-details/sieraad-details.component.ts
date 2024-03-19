@@ -11,6 +11,7 @@ import { Sieraden } from '../sieraden';
 
 export class SieraadDetailsComponent implements OnInit {
 
+
   sieraad: Sieraad | undefined;
 
   constructor(private route: ActivatedRoute) { 

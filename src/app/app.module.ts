@@ -10,6 +10,7 @@ import { SieraadDetailsComponent } from './sieraad-details/sieraad-details.compo
 import { AppRoutingModule } from './app-routing.module';
 import { OveronsComponent } from './overons/overons.component';
 import { HoebestelikComponent } from './hoebestelik/hoebestelik.component';
+import { BestelPopupComponent } from './bestel-popup/bestel-popup.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { HoebestelikComponent } from './hoebestelik/hoebestelik.component';
     SieraadDetailsComponent,
     OveronsComponent,
     HoebestelikComponent,
+    BestelPopupComponent,
   ],
   imports: [
     BrowserModule,
