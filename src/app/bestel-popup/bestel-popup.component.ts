@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Sieraden } from '../sieraden';
+
 
 @Component({
   selector: 'app-bestel-popup',
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./bestel-popup.component.scss']
 })
 export class BestelPopupComponent {
-
+  Sieraad = Sieraden
 }

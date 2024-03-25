@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Sieraad } from '../sieraad';
 import { Sieraden } from '../sieraden';
+
 
 @Component({
   selector: 'app-sieraad-details',
@@ -10,8 +11,9 @@ import { Sieraden } from '../sieraden';
 })
 
 export class SieraadDetailsComponent implements OnInit {
-
-
+  popup = false
+  name = 'Angular';
+  
   sieraad: Sieraad | undefined;
 
   constructor(private route: ActivatedRoute) { 
