@@ -4,6 +4,8 @@ $roze_zwak: #E69DAE;
 $groen_roze: #E6D7CF;
 
 :host {
+  position: relative;
+  bottom: 0;
   margin-top: auto;
   background-color: $background;
   height: 100px;
