@@ -10,10 +10,16 @@
     <div class="overlay"  *ngIf="popup">
         <div class="popup">
             <h1>Bestellen</h1>
-            <p>Wij zijn ontzettend blij dat u wat gaat bestellen bij ons! <br> Alleen gaat bestellen bij ons net iets anders dan bij andere website. <br> Als u hieronder kijkt ziet u de naam en prijs van het product wat u wilt kopen. <br>
-            <b>{{sieraad.name}} Є {{sieraad.price}}</b>
-             <br> Als deze informatie klopt volgens u, dan onthoud of kopieert u de naam van het product. <br> Zodra u klaar bent om te bestellen klikt u op de knop helemaal onder aan.  </p>
+            <p>Wij zijn ontzettend blij dat u wat gaat bestellen bij ons! <br>
+            Alleen gaat bestellen bij ons net iets anders dan bij andere website. 
+            <br> Als u hieronder kijkt ziet u de naam en prijs van het product wat u wilt kopen. <br>
+            <b>{{sieraad.name}} Є {{sieraad.price}}</b><br>
+            Als deze informatie klopt volgens u, dan onthoud of kopieert u de naam van het product. <br>
+            Zodra u dat hebt gedaan klikt u op bestellen hieronder. <br>
+            Er wordt nu een mail app van u geopent u typt of plakt nu de naam van het product dat u wilt bestellen. <br>
+            Ook voegt u hier uw adres, postcode, voor- en achternaam toe, al deze informatie wordt gebruikt voor het versturen van uw product.</p>
             <a href="mailto:bestel@slsl-sieraden.nl">Bestellen</a>
+            <i><h6>*Als de knop niks opent op uw apperaat mail stuur uw bestelling dan naar bestel@slsl-sieraden.nl*</h6></i>
             <a class="close" (click)="popup = false">&times;</a>
         </div>
     </div>
