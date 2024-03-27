@@ -1,14 +1,15 @@
-<body>
-    <a class="item"
+<div class="sieraden">
+  <!-- TODO <app-display-sieraad> component aanmaken om hier te gebruiken? -->
+    <a *ngFor="let item of sieraad" class="item"
         [title]="item.name + ' details'"
         [routerLink]="['/product', item.id]"
-        href="" *ngFor="let item of sieraad">
-        <div class="test">
-            <img src={{item.imgURL}} alt="">
+        href="">
+        <div class="sieraad">
+            <img src="{{item.imgURL}}" alt="{{item.name}}: {{item.price}}">
             <div class="text">
                 <p>{{item.name}}</p>
                 <p>Є {{item.price}} </p>
             </div>
         </div>
     </a>
-</body>
+</div>
