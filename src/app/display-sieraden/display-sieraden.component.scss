@@ -1,9 +1,9 @@
-body {
+.sieraden {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 
-    div {
+    .sieraad {
         cursor: pointer;
         margin: 10px;
 
@@ -23,9 +23,9 @@ body {
 
         img {
             transition: 1s;
-            width: 90%;
+            width: 350px;
             border-radius: 50px;
-        } 
+        }
     }
 
 }
@@ -33,5 +33,4 @@ body {
 a {
     text-decoration: none;
     color: black;
-
 }
