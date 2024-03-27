@@ -10,6 +10,20 @@ body {
     flex-direction: row;
     margin-left: 100px;
 
+    .back {
+      font-size: 30px;
+      font-weight: bold;
+      transition: 300ms;
+      position: relative;
+      left: -100px;
+      top: -40px;
+
+      &:hover {
+        color: red;
+        cursor: pointer;
+      }
+    }
+
     img {
         grid-column-start: 1;
 
