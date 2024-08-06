@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Sieraad } from '../sieraad';
+import { Sieraad } from '../interfaces/sieraad';
 import { Sieraden } from '../sieraden';
 
 

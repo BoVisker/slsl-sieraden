@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-  bericht = 'Door technisch ontwikkelingen kunnen er sommige dingen zoals tekst, knoppen, etc, er niet goed uitzien.'
 }

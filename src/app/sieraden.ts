@@ -1,4 +1,4 @@
-import { Sieraad } from './sieraad';
+import { Sieraad } from "./interfaces/sieraad";
 
 export const Sieraden: Sieraad[] = [
   { id: 1, name: 'Colourfull katsuki Kralen', price: '2.00', imgURL: "../../assets/producten/ColourfullKatsukiKralen.jpg", beschrijving: "" },
